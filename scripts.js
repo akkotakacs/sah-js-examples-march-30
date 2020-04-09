@@ -2,15 +2,17 @@
 
 $('p').css('background', 'purple');
 
-$('p').text('<strong>hello world</strong>');
+// $('p').text('<strong>hello world</strong>');
 
-$('p').html('<strong>hello world</strong>');
-$('p').append('<strong>another</strong>');
+// $('p').html('<strong>hello world</strong>');
+// $('p').append('<strong>another</strong>');
 
 // $('div').remove();
 
 $('button').click(() => {
-  $('.first').toggleClass('hidden');
+//  $('.first').toggleClass('hidden');
+  likeCount++;
+  $('p').text(likeCount);
 })
 
 // From 1st part to the 3rd
@@ -49,6 +51,8 @@ if (age >= 18) {
 for (let i = 0; i < 10; i++) {
   console.log(i);
 }
+
+let likeCount = 13;
 
 console.log(colors);
 
